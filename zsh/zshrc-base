@@ -46,5 +46,7 @@ alias yolo='yaourt -Syua'
 
 export WINEARCH=win32
 export PATH=$PATH:$CHEESESKEL_HOME/bin
+export EDITOR=nvim
+export VISUAL=subl3
 
 export PERL5LIB=$PERL5LIB:$CHEESESKEL_HOME/perllib
