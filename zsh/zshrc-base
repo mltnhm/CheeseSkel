@@ -45,7 +45,7 @@ alias vim='nvim'
 alias yolo='yaourt -Syua'
 
 export WINEARCH=win32
-export PATH=$PATH:$CHEESESKEL_HOME/bin
+export PATH=$PATH:$CHEESESKEL_HOME/bin:$(npm root):$(npm root -g):$(ruby -e "print Gem.user_dir")/bin
 export EDITOR=nvim
 export VISUAL=subl3
 
