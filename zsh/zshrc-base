@@ -41,7 +41,8 @@ function precmd() {
 alias rm='rm -Iv'
 alias perldoc='perldoc -oman'
 alias reload="echo -n "'"reloading shell ($SHELL)..\r"'"; exec $SHELL"
-alias vi='vim'
+alias vim='nvim'
+alias yolo='yaourt -Syua'
 
 export WINEARCH=win32
 export PATH=$PATH:$CHEESESKEL_HOME/bin
