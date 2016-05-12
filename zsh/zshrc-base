@@ -48,5 +48,8 @@ export WINEARCH=win32
 export PATH=$PATH:$CHEESESKEL_HOME/bin:$(npm root):$(npm root -g):$(ruby -e "print Gem.user_dir")/bin
 export EDITOR=nvim
 export VISUAL=subl3
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
 
 export PERL5LIB=$PERL5LIB:$CHEESESKEL_HOME/perllib
